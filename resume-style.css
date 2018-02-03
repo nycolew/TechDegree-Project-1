@@ -1,0 +1,117 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+#profile-pic {
+  border: lightblue 4px solid;
+  width: 200px;
+  height: 200px;
+  margin-right: 36px;
+}
+
+body {
+  background-color: black;
+}
+
+header {
+  background-color: #43434A;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+.header-left {
+  display: inline-block;
+  float: left;
+  padding-right: 40px;
+}
+
+.header-middle {
+  display: inline-block;
+  float: inline-start;
+}
+
+.header-right {
+  display: inline-block;
+  float: right;
+  color: white;
+}
+
+.header-bottom {
+  font-size: 32px;
+  color: white;
+  text-align: center;
+}
+
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: lightblue;
+  text-decoration: bold;
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  text-decoration: bold;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+
+h2 {
+  color: lightblue;
+  font-size: 48px;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.contact-category {
+  text-align: right;
+  padding: 5px;
+}
+
+main {
+  background-color: #43434A;
+  margin-top: 0;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-right: 20px;
+}
+
+h3 {
+  background-color: #7C7D87;
+  color: white;
+  font-size: 28px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-right: 20px;
+}
+
+h4 {
+  color: white;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  padding-left: 20px;
+  margin-right: 20px;
+}
+
+.job-title {
+  color: #7C7D87;
+  font-size: 24px;
+  text-indent: 20px;
+  padding-top: 0;
+  margin-top: 0;
+  padding-left: 20px;
+}
