@@ -60,6 +60,10 @@ a:hover {
   font-weight: bold;
 }
 
+a:visited {
+  color: lightgrey;
+}
+
 h1 {
   color: white;
   font-size: 72px;
@@ -185,4 +189,10 @@ h5 {
   color: yellow;
   font-size: 22px;
   text-align: left;
+}
+
+footer {
+  color: white;
+  font-size: 14px;
+  text-align: center;
 }
