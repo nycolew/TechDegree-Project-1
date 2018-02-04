@@ -125,6 +125,10 @@ ul.skills {
   background: purple;
 }
 
+.skills li:nth-child(3n+3) {
+  background: navy;
+}
+
 ul.hobbies {
   padding: 0;
   text-align: center;
@@ -141,6 +145,10 @@ ul.hobbies {
 
 .hobbies li:nth-child(odd) {
   background: maroon;
+}
+
+.hobbies li:nth-child(3n+3) {
+  background: navy;
 }
 
 #coding {
