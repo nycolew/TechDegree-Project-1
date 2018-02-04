@@ -46,7 +46,8 @@ header {
   font-size: 28px;
   color: white;
   text-align: left;
-  display: inline-block;
+  max-width: 65%;
+  padding-bottom: 20px;
 }
 
 a:link {
@@ -79,11 +80,17 @@ h2 {
   padding: 5px;
 }
 
+table {
+  padding-top: 0;
+  margin-top: 5px;
+}
+
 main {
   background-color: #43434A;
   margin-top: 0;
   margin-left: 20px;
   margin-right: 20px;
+  margin-bottom: 20px;
 }
 
 h3 {
@@ -146,6 +153,8 @@ h4 {
 h5 {
   color: white;
   font-size: 24px;
+  padding-bottom: 0;
+  margin-bottom: 3px;
 }
 
 .skill-name {
@@ -156,24 +165,24 @@ h5 {
 
 #skill-html {
   color: teal;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
 
 #skill-css {
   color: red;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
 
 #skill-java {
   color: green;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
 
 #skill-python {
   color: yellow;
-  font-size: 20px;
+  font-size: 22px;
   text-align: left;
 }
